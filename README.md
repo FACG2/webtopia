@@ -24,4 +24,4 @@ A  one-page portfolio website for Webtopia team, that includes information about
 
 > Footer.
 
-you can visit us from [here] (https://facg2.github.io/webtopia/)
+you can visit us from [here](https://facg2.github.io/webtopia/)
