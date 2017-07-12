@@ -1,12 +1,14 @@
-<style type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300" rel="stylesheet">
 
 .form-style-4{
-    width: 450px;
-    font-size: 20px;
-    background: #495C70;
-    padding: 30px 30px 15px 30px;
-    border: 5px solid #53687E;
+  width: 950px;
+  min-height: 350px;
+  font-size: 20px;
+  background: #495C70;
+  padding: 30px 30px 30px 30px;
+  border: 1px solid #34495e;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .form-style-4 input[type=submit],
 .form-style-4 input[type=button],
@@ -16,13 +18,14 @@
 .form-style-4 label
 {
   font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 13px;
-    color: #fff;
+    font-size: 25px;
+    color: #ecf0f1
+;
 
 }
 .form-style-4 label {
     display:block;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 .form-style-4 label > span{
     display: inline-block;
@@ -34,19 +37,17 @@
 {
     background: transparent;
     border: none;
-    border-bottom: 1px dashed #83A4C5;
+    border-bottom: 1px dashed ;
     width: 275px;
     outline: none;
     padding: 0px 0px 0px 0px;
-    font-style: italic;
 }
 .form-style-4 textarea{
-    font-style: italic;
     padding: 0px 0px 0px 0px;
     background: transparent;
     outline: none;
     border: none;
-    border-bottom: 1px dashed #83A4C5;
+    border-bottom: 1px dashed #2c3e50;
     width: 275px;
     overflow: hidden;
     resize:none;
@@ -73,4 +74,18 @@
 .form-style-4 input[type=button]:hover{
 background: #394D61;
 }
-</style>
+
+
+fieldset {
+    background:#2c3e50;
+
+ border: 1px solid #53687E;
+
+}
+label { font-family:'Open+Sans Condensed';}
+form {
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ padding: 50px 50px;
+}

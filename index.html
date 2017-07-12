@@ -1,54 +1,37 @@
 <!DOCTYPE html>
 <html>
-<script type="text/javascript">
-//auto expand textarea
-function adjust_textarea(h) {
-   h.style.height = "20px";
-   h.style.height = (h.scrollHeight)+"px";
-}
-</script>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300" rel="stylesheet">
+  <script type="text/javascript">
+  //auto expand textarea
+  function adjust_textarea(h) {
+     h.style.height = "20px";
+     h.style.height = (h.scrollHeight)+"px";
+  }
+  </script>
 
-<style>
-legend {
-  align-items: center;
-  background: #607D8B;
-  border-style: dotted;
-    color: white;
-    padding: 5px 5px 5px 5px;
-}
+  <link href="style.css" rel="stylesheet" />
+</head>
 
-fieldset {
-    background:#495C70;
- border: 2px solid #53687E;
+<body>
+  <fieldset>
+    <form class="form-style-4">
+      <label for="name">
+        <span>Enter Your Name</span><input type="text" name="name" required="true" />
+      </label>
+      <label for="email">
+        <span>Email Address</span><input type="email" name="email" required="true" />
+      </label>
 
-}
-label { font-family:'Open+Sans Condensed';}
-form {
- align-items: center;
- display: flex;
- flex-direction: column;
- padding: 50px 50px;
-}
-</style>
+      <label for="message">
+        <span>Message to Us</span><textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
+      </label>
 
-<link href="style.css" rel="stylesheet" />
-<fieldset>
-  <legend> Contact Us </legend>
-<form class="form-style-4">
-<label for="name">
-<span>Enter Your Name</span><input type="text" name="name" required="true" />
-</label>
-<label for="email">
-<span>Email Address</span><input type="email" name="email" required="true" />
-</label>
+      <label>
+        <span>&nbsp;</span><input type="submit" value="Submit" />
+      </label>
+    </form>
+  </fieldset>
+</body>
 
-<label for="message">
-<span>Message to Us</span><textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
-</label>
-
-<label>
-<span>&nbsp;</span><input type="submit" value="Submit" />
-</label>
-</form>
-</fieldset>
 </html>
