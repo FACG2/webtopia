@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+//auto expand textarea
+function adjust_textarea(h) {
+   h.style.height = "20px";
+   h.style.height = (h.scrollHeight)+"px";
+}
+</script>
+
+<style>
+legend {
+  align-items: center;
+  background: #607D8B;
+  border-style: dotted;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+fieldset {
+    background:#495C70;
+ border: 2px solid #53687E;
+
+}
+label { font-family:'Open+Sans Condensed';}
+form {
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ padding: 50px 50px;
+}
+</style>
+
+<link href="style.css" rel="stylesheet" />
+<fieldset>
+  <legend> Contact Us </legend>
+<form class="form-style-4">
+<label for="name">
+<span>Enter Your Name</span><input type="text" name="name" required="true" />
+</label>
+<label for="email">
+<span>Email Address</span><input type="email" name="email" required="true" />
+</label>
+
+<label for="message">
+<span>Message to Us</span><textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
+</label>
+
+<label>
+<span>&nbsp;</span><input type="submit" value="Submit" />
+</label>
+</form>
+</fieldset>
+</html>
