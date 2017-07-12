@@ -17,21 +17,22 @@
 }
 
 body {
+
 }
 
 h3{
   text-align: center;
 }
 
-.profiles{
-
-
+.section{
+  align-items: center;
+padding: 100px 50px;
 }
 
 .cards {
-  display: flex;
+  display: table;
   flex-wrap: wrap;
-  margin: 50px auto ;
+  margin: 0px auto;
 }
 
 .card {
@@ -43,6 +44,7 @@ h3{
   justify-content: center;
   margin-right: 30px;
   margin-bottom: 30px;
+  float: left;
 }
 
 
