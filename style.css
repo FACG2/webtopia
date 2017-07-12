@@ -1,3 +1,4 @@
+
 *{
   margin:0;
   padding:0;
@@ -70,4 +71,110 @@ nav{
    .text-center p{
     font-size: 15px;
     }
+=======
+/*
+    box-shadow: Horizontal Shadow | Vertical Shadow | Blur | Spread | Color | Inset,Outset "-This is Box Shadow properties-"
+*/
+
+
+/*
+    text-shadow: Horizontal Shadow | Vertical Shadow | Blur |  Color | "-This is Text Shadow Properties-"
+*/
+
+
+/*
+    transform:  matrix( ScaleX, SkewY, SkewX, ScaleY, TranslateX, TranslateY )
+*/
+
+* {
+  box-sizing: border-box
+}
+
+body {}
+
+ .title  {
+  text-align: center;
+  font-family: sans-serif;
+  color: #424242;
+  margin: 70px auto;
+  font-size: 30px;
+}
+
+.section {
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.cards {
+  display: table;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+
+.card {
+  display: inline block;
+  width: 250px;
+  height: 420px;
+  border: 3px solid #e4e2e2;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  float: left;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.member-image {
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+
+}
+
+.card h5 {
+  color: #424242;
+  font-family: 'Trocchi', serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.card p {
+  color: #7c795d;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 12pt;
+
+}
+
+.card .accounts {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  float: left;
+  border-top: 1px solid #a6a9ad;
+}
+
+.card ul {
+  list-style: none;
+  display: table;
+  margin: auto;
+  padding: 0;
+}
+
+.card li {
+  display: inline-block;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+  margin-right: 3px;
+
 }
