@@ -17,6 +17,9 @@ website sketch:
 
 ### we divide it into 4 section:
 > Navigation bar & Header.
+
 > Team profiles.
+
 > Contact Form.
+
 > Footer.
