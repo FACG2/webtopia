@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +10,15 @@
     <meta name="viewport" content="initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="logo.css">
     <link rel="stylesheet" href="topnav.css">
     <title>webtopia</title>
 </head>
 <body>
+
+    <section id="one">
   <header class="first">
       <nav>
         <div class="container">
@@ -25,8 +29,8 @@
             <div class="topnav" id="myTopnav">
                 <a href="#contact">Contact</a>
                 <a href="#about">About</a>
-                <a href="#team">Team</a>
-                <a href="#home">Home</a>
+                <a href="#two">Team</a>
+                <a href="#one">Home</a>
                 <a href="javascript:void(0);" style="font-size:22px;" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
 
@@ -40,8 +44,9 @@
       </div>
       </div>
     </header>
+    </section>
 
-  <section id="profiles">
+  <section id="two">
     <h3 class= "title"> OUR TEAM </h3>
 
     <div class="cards">
@@ -123,13 +128,11 @@
           </div>
         </header>
         <h5 class="card-name"> Mahmoud AlMadhoun</h5>
-        <p class="card-text"> I am a developer.
-           I'm really half-sane. Sleeping all the time In the remaining time drink coffee
+        <p class="card-text"> I'm a half-sane developer. Sleeping all the time In the remaining time drink coffee
           <p>
 
             <div class="accounts">
               <ul>
-                <li class="account first-item">
                   <a href="https://github.com/abdhalees/">
             <img class="icon" src= "icons/GitHub_Logo.png" alt "github profile" >
 
@@ -191,19 +194,56 @@
 
   </section>
 
+  <fieldset>
+    <h2 id="con"> Contact Us</h2>
+    <form class="form-style-4">
+      <label for="name">
+        <span>Your Name</span><input type="text" name="name" required="true" />
+      </label>
+      <label for="email">
+        <span>Email Address</span><input type="email" name="email" required="true" />
+      </label>
 
+      <label for="message">
+        <span>Message to Us</span><textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
+      </label>
 
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
+      <label>
+        <span>&nbsp;</span><input type="submit" value="Submit" />
+      </label>
+    </form>
+  </fieldset>
+
+  <script>
+  function adjust_textarea(h) {
+     h.style.height = "20px";
+     h.style.height = (h.scrollHeight)+"px";
+  }
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+
 </body>
+
+
+<footer>
+  <div style="border:0px solid #0505f8; black; padding:1.2em; background-image:url(image/bar.png);">
+    <center>
+      <a style="color:#f4ff57" ;>All Rights Are Reserved</a>
+      <p style="color:white" ;>
+        Contact information:
+        <a href="mailto:info@webtopia.com" ;> info@webtopia.com </a>
+      </p>
+    </center>
+  </div>
+
+
+
+</footer>
 </html>
-
-
