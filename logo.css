@@ -1,0 +1,33 @@
+
+.logo-left h2 {
+  color: #555;
+}
+.logo-left a {
+  color: white;
+}
+.logo-left a:hover {
+  color: #ff7b29;
+}
+.logo-left h2 {
+  font-size: 29px;
+  font-weight: bold;
+  letter-spacing: -.02em;
+  margin-bottom: 6px;
+}
+.logo-left h2 a {
+  text-decoration: none;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+}
+.byline {
+  color: #9799a7;
+  margin-bottom: 18px;
+}
+.intro {
+  text-indent: 15px;
+}
+.intro a {
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
