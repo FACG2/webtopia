@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +10,14 @@
     <meta name="viewport" content="initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="logo.css">
     <link rel="stylesheet" href="topnav.css">
     <title>webtopia</title>
 </head>
 <body>
+
     <section id="one">
   <header class="first">
       <nav>
@@ -191,9 +194,31 @@
 
   </section>
 
+  <fieldset>
+    <h2 id="con"> Contact Us</h2>
+    <form class="form-style-4">
+      <label for="name">
+        <span>Your Name</span><input type="text" name="name" required="true" />
+      </label>
+      <label for="email">
+        <span>Email Address</span><input type="email" name="email" required="true" />
+      </label>
 
+      <label for="message">
+        <span>Message to Us</span><textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
+      </label>
+
+      <label>
+        <span>&nbsp;</span><input type="submit" value="Submit" />
+      </label>
+    </form>
+  </fieldset>
 
 <script>
+function adjust_textarea(h) {
+   h.style.height = "20px";
+   h.style.height = (h.scrollHeight)+"px";
+}
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {

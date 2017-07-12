@@ -1,3 +1,11 @@
+
+#con  {
+  text-align: center;
+  color: #ecf0f1;
+  font-size: 35px;
+  font-family: 'Indie Flower', cursive;
+  padding-top: 20px;
+}
 *{
   margin:0;
   padding:0;
@@ -24,61 +32,78 @@ section {
     background-color: #ecf0f1;
 }
 
-.cards {
-  display: table;
-  flex-wrap: wrap;
-  margin: 0px auto;
 }
-
-.card {
-  display: inline block;
-  width: 250px;
-  height: 420px;
-  border: 3px solid #e4e2e2;
-  align-items: center;
-  justify-content: center;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  float: left;
-  border-radius: 1em;
-  overflow: hidden;
-}
-
-.member-image {
-  width: 100%;
-  height: 50%;
-  margin: 0 auto;
-
-}
-
-.card h5 {
-  color: #424242;
-  font-family: 'Trocchi', serif;
+.form-style-4{
+  width: 950px;
+  min-height: 350px;
   font-size: 20px;
-  font-weight: normal;
-  text-align: center;
-  margin: 5px auto;
-}
-
-.card p {
-  color: #7c795d;
-  font-family: sans-serif;
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 20px;
-  margin-right: 5px;
-  margin-left: 5px;
-  font-size: 12pt;
-
-}
-
-.card .accounts {
-  width: 100%;
+  background: #495C70;
+  padding: 30px 30px 30px 30px;
+  border: 1px solid #ecf0f1;
   margin: 0 auto;
   padding-top: 10px;
   float: left;
   border-top: 1px solid #a6a9ad;
+  margin-top: 30px;
+   margin-bottom: 30px;
 }
+
+
+  .cards {
+    display: table;
+    flex-wrap: wrap;
+    margin: 0px auto;
+  }
+
+  .card {
+    display: inline block;
+    width: 250px;
+    height: 420px;
+    border: 3px solid #e4e2e2;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
+    border-radius: 1em;
+    overflow: hidden;
+  }
+
+  .member-image {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+
+  }
+
+  .card h5 {
+    color: #424242;
+    font-family: 'Trocchi', serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin: 5px auto;
+  }
+
+  .card p {
+    color: #7c795d;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 12pt;
+
+  }
+
+  .card .accounts {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    float: left;
+    border-top: 1px solid #a6a9ad;
+  }
 
 .card ul {
   list-style: none;
@@ -166,4 +191,81 @@ nav{
    .text-center p{
     font-size: 15px;
     }
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+  font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    color: #ecf0f1;
+
+}
+.form-style-4 label {
+    display:block;
+    margin-bottom: 50px;
+}
+.form-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #fff;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+}
+.form-style-4 textarea{
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #fff;
+    width: 275px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+.form-style-4 textarea:focus,
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+    border-bottom: 1px dashed ##2980b9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+       border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #2c3e50;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #2980b9;
+}
+
+
+fieldset {
+    background:#2c3e50;
+
+ border: 1px solid #53687E;
+
+}
+label { font-family:'Open+Sans Condensed';}
+form {
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ padding: 50px 50px;
 }
