@@ -10,12 +10,18 @@
 A  one-page portfolio website for Webtopia team, that includes information about team members and a way to contact.
 
 ## How did we build the site?
-website sketch:
+# Website sketch:
+
 ![website sketch ](http://store4.up-00.com/2017-07/149986694657491.jpg "Website sketch")
 
 
 ### we divide it into 4 section:
-[x] Navigation bar & Header.
-[x] Team profiles.
-[x] Contact Form.
-[x] Footer.
+> Navigation bar & Header.
+
+> Team profiles.
+
+> Contact Form.
+
+> Footer.
+
+you can visit us from [here](https://facg2.github.io/webtopia/)
